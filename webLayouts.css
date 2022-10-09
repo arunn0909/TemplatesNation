@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+}
+.layout{
+    width: 100%;
+    height:100%;
+    background-color: yellow;
+}
+.layoutCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.layoutCards li{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 10px 30px;
+}
+.layoutCards li .layoutImage{
+ width: 90%;
+ height: 240px;
+ border: 2px solid black;
+ margin: 2px auto;
+}
+.layoutCards li .details{
+    width: 100%;
+    height: 40px;
+    margin: 2px 0px;
+    display: flex;
+}
+.layoutCards li .layoutName{
+    width: 180px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    margin: 3px auto;
+
+}
+
+.layoutCards li .layoutLink{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    margin: 3px auto;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: blue;
+}
+.layoutCards li .layoutLink a{
+    text-decoration: none;
+    color: white;
+}

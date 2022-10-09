@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    width: 20%;
+    height: 450px;
+    border: 2px solid black;
+}
+.nav ul a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nav ul li{
+    border: 2px solid black;
+    height: 35px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 4px;
+    margin-top: 5px;
+}
+.content{
+    width: 80%;
+    height: 100%;
+}
+.content{
+    width: 80%;
+    height: 200vh;
+    border: 2px solid black;
+}
+.head h2{
+    border-bottom: 5px solid black;
+    border-width: 100%;
+    margin-bottom: 20px;
+}

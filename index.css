@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden ;
+}
+/* nav  */
+nav{
+    width: 100vw;
+    height: 80px;
+    background-color: red;
+}
+.left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* main  */
+.index{
+    width: 90%;
+    height: 435px;
+    background-color: yellow;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* main cards  */
+.webLayouts,.Components{
+    width:40%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardLinks{
+    font-size: 25px;
+    text-decoration: none;
+}
+/* footer  */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: green ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

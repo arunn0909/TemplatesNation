@@ -4,7 +4,7 @@
         <b style="font-size:4vw">🎊 HacktoberFest - 2022 🎉</b>
     </a>
 </h3>
-<p align="center"><img src="images/hactoberfest.png"></p>
+<p align="center"><img src="Images/hactoberfest.png"></p>
 <br>
 <hr>
 <br>

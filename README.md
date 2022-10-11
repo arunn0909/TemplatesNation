@@ -95,12 +95,12 @@
 
 
 15. Voila! You have made a PR to the TemplatesNation website. Sit back patiently and relax while your PR is reviewed. 
-## Thanks to all Contributors <a name = "contributors"></a>
+<!-- ## Thanks to all Contributors <a name = "contributors"></a>
 
 <a href="https://github.com/arunn0909/BooksWorld/graphs/contributors"> 
 <img src="https://contrib.rocks/image?repo=arunn0909/TemplatesNation" /> 
 
-</a>
+</a> -->
 
 ## Support
 

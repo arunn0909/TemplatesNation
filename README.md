@@ -55,7 +55,7 @@
    git clone https://github.com/<your_user_name>/TemplatesNation.git
    ```
 
-3. **Navigate to project directory.**
+3. **Navigate to the project directory.**
    ```
    cd TemplatesNation
    ```

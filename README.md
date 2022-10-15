@@ -1,7 +1,7 @@
 
 <h3 align="center">
     <a href="https://hacktoberfest.com/">
-        <b style="font-size:4vw">🎊 HacktoberFest - 2022 🎉</b>
+        <b style="font-size:4vw">🎊  HacktoberFest - 2022 🎉 </b>
     </a>
 </h3>
 <p align="center"><img src="Images/hactoberfest.png"></p>
@@ -104,4 +104,4 @@
 
 ## Support
 
-   ## If you like this project , please consider it giving a ⭐️ . It will help us to grow and improve this project and help others to find it . 
+   ## If you really like this project , please consider it by giving a  ⭐️ . It will help us to grow and improve this project and help others to find it . 

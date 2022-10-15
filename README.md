@@ -6,7 +6,9 @@
 </h3>
 <p align="center"><img src="Images/hactoberfest.png"></p>
 <br>
+<br>
 <hr>
+<br>
 <br>
 <!--<div align="center">
  <img src="images/readmelogo.jpeg" height=70px />
@@ -71,7 +73,7 @@
    ```
 7. **Make necessary changes.**
 
-8. **Track your changes**
+8. **Track All your changes**
    ```
    git add .
    ```

@@ -63,7 +63,7 @@
    ```
    git remote add upstream https://github.com/arunn0909/TemplatesNation.git
    ```
-5. **Before making any changes in the repository, always take a pull from the upstream repository to your branch to keep it updated with remote repository.**
+5. **Before making any changes in this repository, always take a pull from the upstream repository to your branch to keep it updated with remote repository.**
    ```
    git pull upstream main
    ```

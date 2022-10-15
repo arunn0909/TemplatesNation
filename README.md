@@ -1,12 +1,14 @@
 
 <h3 align="center">
     <a href="https://hacktoberfest.com/">
-        <b style="font-size:4vw">🎊 HacktoberFest - 2022 🎉</b>
+        <b style="font-size:4vw">🎊  HacktoberFest - 2022 🎉 </b>
     </a>
 </h3>
 <p align="center"><img src="Images/hactoberfest.png"></p>
 <br>
+<br>
 <hr>
+<br>
 <br>
 <!--<div align="center">
  <img src="images/readmelogo.jpeg" height=70px />
@@ -27,7 +29,7 @@
 
 </div>
 
-<h1 align="center">An online website for all kinds of web template and components built with </h3>
+<h1 align="center">An online website for all kinds of web templates and components built with </h3>
 <div align="center"> 
 
 ![HTML](https://img.shields.io/badge/-HTML-3498DB?style=for-the-badge&logo=HTML5&logoColor=white)
@@ -53,7 +55,7 @@
    git clone https://github.com/<your_user_name>/TemplatesNation.git
    ```
 
-3. **Navigate to project directory.**
+3. **Navigate to the project directory.**
    ```
    cd TemplatesNation
    ```
@@ -61,7 +63,7 @@
    ```
    git remote add upstream https://github.com/arunn0909/TemplatesNation.git
    ```
-5. **Before making any changes in the repository, always take a pull from the upstream repository to your branch to keep it updated with remote repository.**
+5. **Before making any changes in this repository, always take a pull from the upstream repository to your branch to keep it updated with remote repository.**
    ```
    git pull upstream main
    ```
@@ -71,7 +73,7 @@
    ```
 7. **Make necessary changes.**
 
-8. **Track your changes**
+8. **Track All your changes**
    ```
    git add .
    ```
@@ -104,4 +106,4 @@
 
 ## Support
 
-   ## If you like this project , please consider it giving a ⭐️ . It will help us to grow and improve this project and help others to find it . 
+   ## If you really like this project , please consider it by giving a  ⭐️ . It will help us to grow and improve this project and help others to find it . 

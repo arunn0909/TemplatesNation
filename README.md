@@ -29,7 +29,7 @@
 
 </div>
 
-<h1 align="center">An  online website for all kinds  of web templates and components built with </h3>
+<h1 align="center">An online website for all kinds of web templates and components built with </h3>
 <div align="center"> 
 
 ![HTML](https://img.shields.io/badge/-HTML-3498DB?style=for-the-badge&logo=HTML5&logoColor=white)

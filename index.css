@@ -5,18 +5,17 @@
 
 
 /* navbar css  */
-li{
+nav ul li{
     list-style-type: none;
     margin: 2vw 0;
     
     font-size: 3vh;
   }
   
-  a{
+  nav ul li a{
     text-decoration: none;
     color: black;
     font-family: monospace;
-  
     padding: 2vw;
   }
   
@@ -26,47 +25,22 @@ li{
     overflow-x:hidden ;
   }
   
-  ul{
+  nav ul{
     display: block;
     margin: 0;
     padding: 0;
     
     display: flex;  
   }
-  button{
+  /* button{
     display: none;
-  }
+  } */
   
   a:hover{
     background-color: #C6E9FF;
   }
   
-  @media only screen and (max-width: 500px) {
-    ul{
-      flex-direction: column;
-    }
-    
-    a{
-      display: block;
-    }
-    
-    li{
-      margin: 0;
-    }
-    
-    button{
-      display: block;
-      
-      padding: 2vw;
-      font-size: 3vh;
-      background-color: #AFE0FF;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      
-      align-self: flex-start;
-    }
-  }
+  
   /* navbar css ends  */
 /* main  */
 .index{
@@ -89,10 +63,7 @@ li{
     align-items: center;
     justify-content: center;
 }
-.cardLinks{
-    font-size: 25px;
-    text-decoration: none;
-}
+
 /* footer  */
 footer{
     width: 100%;
@@ -101,4 +72,19 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+  nav ul{
+    flex-direction: column;
+  }
+  
+  nav a{
+    display: block;
+  }
+  
+  nav li{
+    margin: 0;
+  }
 }

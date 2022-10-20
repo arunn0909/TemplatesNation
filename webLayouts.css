@@ -49,10 +49,8 @@ nav a{
 .layoutLink{
     width: 100px;
     height: 30px;
-    /* border: 2px solid black; */
     margin: 3px auto;
     color: white;
-    /* background-color: blue; */
     cursor:pointer;
 }
 .linkBtn{

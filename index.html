@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <div class="topnav" id="myTopnav">
+        <div class="active">
+            <a href="#" class="active"> Templates Nation </a>
+
     <header>
         <nav>
             <ul>
@@ -40,8 +45,63 @@
         </div>
         <div class="Components">
             <a href="components.html" class="cardLinks">Web Components</a>
-        </div>
 
+        </div>
+        <!-- link one -->
+        <a href="#aboutMe"> About Me </a>
+        <!-- link two -->
+        <a href="#projects"> Projects </a>
+        <!-- link three -->
+        <a href="#cv"> CV </a>
+        <!-- link four -->
+        <a href="#contacts"> Contacts </a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+    <main class="index">
+        <div class="container">
+            <div class="card">
+               <div class="img">
+                  <img src="/Images/weblay.jpeg">
+               </div>
+               <div class="top-text">
+                  <div class="name">
+                     Web Layouts
+                  </div>
+               </div>
+               <div class="bottom-text">
+                  <div class="btn">
+                    <a href="webLayouts.html" class="card">Read More</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="img">
+                  <img src="/Images/webcomp.jpeg">
+               </div>
+               <div class="top-text">
+                  <div class="name">
+                     Web Components
+                  </div>
+               </div>
+               <div class="bottom-text">
+                  <div class="btn">
+                    <a href="components.html" class="card">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
     </main>
     <footer>
         <h3>All Rights reserved @copyright 2022</h3>

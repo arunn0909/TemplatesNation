@@ -10,50 +10,32 @@
     <link rel="stylesheet" href="components.css">
 </head>
 <body>
-    <header>
-        <!-- <nav>
-            <div class="left">
-                <div class="logo">
-                    <a href="index.html"><h1>TemplatesNation</h1></a>
-                </div>
-            </div>
-        </nav> -->
-
-        <nav>
-            <ul>
-                <button>🞬</button>
-              <li> 
-                <!-- link one -->
-                <a href="#aboutMe"> About Me </a>
-              </li>
-              <li>
-                <!-- link two -->
-                 <a href="#projects"> Projects </a>
-              </li>
-              <li>
-                <!-- link three -->
-                <a href="#cv"> CV </a>
-              </li>
-              <li>
-                <!-- link four -->
-                <a href="#contacts"> Contacts </a>
-              </li>
-            </ul>
-          </nav>
-    </header>
-    <main>
-        <div class="nav">
-            <ul>
-                <a href="#navbar"><li>Navbars</li></a>
-                <a href="#about"><li>About us page</li></a>
-                <a href="#footer"><li>Footer</li></a>
-                <a href="#forms"><li>Forms</li></a>
-                <a href="#modals"><li>modals</li></a>
-                <a href="#SignIn"><li>Sign in pages</li></a>
-                <a href="#SignUp"><li>Sign up pages</li></a>
-            </ul>
-
+    <div class="topnav" id="myTopnav">
+        <div class="active">
+            <a href="#" class="active"> Templates Nation </a>
         </div>
+        <!-- link one -->
+        <a href="#aboutMe"> About Me </a>
+        <!-- link two -->
+        <a href="#projects"> Projects </a>
+        <!-- link three -->
+        <a href="#cv"> CV </a>
+        <!-- link four -->
+        <a href="#contacts"> Contacts </a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    <main>
         <div class="content">
             
             <!-- Things which you have to add  

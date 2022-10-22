@@ -1,50 +1,39 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
-li{
     list-style-type: none;
     margin: 2vw 0;
     
     font-size: 3vh;
   }
   
-  a{
+  nav ul li a{
     text-decoration: none;
     color: black;
     font-family: monospace;
-  
     padding: 2vw;
   }
   
   nav{
-    width: 100vw;
+    width: 100%;
     background-color: #D6EFFF;
-    overflow:hidden ;
+    overflow-x:hidden ;
   }
   
-  ul{
+  nav ul{
     display: block;
     margin: 0;
     padding: 0;
     
     display: flex;  
-  }
-  
-  body{
-    margin: 0;
-  }
-  
-  button{
-    display: none;
-  }
-  
+  } 
   a:hover{
     background-color: #C6E9FF;
   }
   
+
   @media only screen and (max-width: 500px) {
     ul{
       flex-direction: column;
@@ -86,9 +75,19 @@ li{
     height: 100%;
     background-color: rgb(136, 100, 162);
     margin: 40px auto;
+
+  
+  /* navbar css ends  */
+/* main  */
+.index{
+    width: 90%;
+    height: 440px;
+    background-color: indigo;
+
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 45px auto;
     font-family:Arial, Helvetica, sans-serif;
     justify-content: space-around;
 }
@@ -109,12 +108,17 @@ li{
     align-items: center;
     justify-content: center;
 }
+
 .cardLinks{
     font-size: 25px;
     text-decoration: none;
     align-items: bottom;
     display: flex;  
 }
+
+=======
+
+/* footer  */
 
 footer{
     padding-top: 20px;
@@ -202,6 +206,7 @@ body {margin:0;font-family:Arial}
   background-color: #AFE0FF;
   color: black;
 }
+
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -314,3 +319,19 @@ body {margin:0;font-family:Arial}
     margin: 10px 0;
   }
 }
+=======
+
+@media only screen and (max-width: 500px) {
+  nav ul{
+    flex-direction: column;
+  }
+  
+  nav a{
+    display: block;
+  }
+  
+  nav li{
+    margin: 0;
+  }
+}
+

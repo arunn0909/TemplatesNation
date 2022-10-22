@@ -46,17 +46,23 @@ nav a{
 
 }
 
-.layoutCards li .layoutLink{
+.layoutLink{
     width: 100px;
     height: 30px;
-    border: 2px solid black;
     margin: 3px auto;
-    display: flex;
-    align-items:center ;
-    justify-content: center;
-    background-color: blue;
-}
-.layoutCards li .layoutLink a{
-    text-decoration: none;
     color: white;
+    cursor:pointer;
+}
+.linkBtn{
+    font-size: 16;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.linkBtn:hover{
+    transform: scale(0.9);
 }
